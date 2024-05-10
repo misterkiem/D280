@@ -1,0 +1,23 @@
+<div class="mainRow">
+    <div class="leftColumn">
+        <app-mapsvg/>
+    </div>
+    <div class="rightColumn">
+        <h1>Selected Country Info:</h1>
+        <div class="infoGrid">
+            <p class="nameLabel">Name:</p>
+            <p class="regionLabel">Region:</p>
+            <p class="incomeLabel">Income:</p>
+            <p class="capitalLabel">Capital City:</p>
+            <p class="capLatLabel">Cap. Lat.</p>
+            <p class="capLongLabel">Cap. Long.</p>
+            <p class="nameValue">{{SelectedCountryInfo?.name}}</p>
+            <p class="regionValue">{{SelectedCountryInfo?.region}}</p>
+            <p class="incomeValue">{{SelectedCountryInfo?.income_level}}</p>
+            <p class="capitalValue">{{SelectedCountryInfo?.capital}}</p>
+            <p class="capLatValue">{{SelectedCountryInfo?.cap_lat}}</p>
+            <p class="capLongValue">{{SelectedCountryInfo?.cap_long}}</p>
+        </div>
+        <a href="https://data.worldbank.org/" target="_blank">(Source: worldbank.org)</a>
+    </div>
+</div>

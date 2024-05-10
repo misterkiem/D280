@@ -1,0 +1,16 @@
+
+path {
+    fill: rgb(46, 71, 52);
+}
+
+path:hover {
+    fill: rgb(106, 170, 106);
+}
+
+path[selected='selected'] {
+    fill: rgb(204, 73, 73);
+}
+
+.svgView {
+    width:100%;
+}

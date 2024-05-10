@@ -1,0 +1,90 @@
+.mainRow {
+    display: flex;
+    background-color: #7db5ff54;
+}
+
+.leftColumn {
+    flex: 70%;
+}
+
+.rightColumn {
+    flex: 30%;
+    text-align: center;
+}
+
+.infoGrid {
+    display: grid;
+    align-self: center;
+    grid-template-columns: 75px auto;
+    grid-template-rows: auto repeat(6);
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;;
+}
+a:visited {
+    color: blue;
+}
+
+.nameLabel {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.regionLabel {
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.incomeLabel {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.capitalLabel {
+    grid-column-start: 1;
+    grid-row-start: 4;
+}
+
+.capLatLabel {
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.capLongLabel {
+    grid-column-start: 1;
+    grid-row-start: 6;
+}
+
+.nameValue {
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.regionValue {
+    grid-column-start: 2;
+    grid-row-start: 2;
+}
+
+.incomeValue {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.capitalValue {
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.capLatValue {
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+.capLongValue {
+    grid-column-start: 2;
+    grid-row-start: 6;
+}
